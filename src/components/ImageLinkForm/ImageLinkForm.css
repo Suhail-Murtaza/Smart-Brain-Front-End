@@ -1,0 +1,64 @@
+.detBut {
+  background: #053c66;
+}
+.form {
+  width: 700px;
+
+  /* Alternate 1 */
+  /* background: linear-gradient(
+      45deg,
+      #78ffd6 12%,
+      transparent 0,
+      transparent 88%,
+      #007991 0
+    ),
+    linear-gradient(
+      135deg,
+      transparent 37%,
+      #78ffd6 0,
+      #007991 63%,
+      transparent 0
+    ),
+    linear-gradient(
+        45deg,
+        transparent 37%,
+        #007991 0,
+        #78ffd6 63%,
+        transparent 0
+      )
+      #007991;
+  background-size: 25px 25px; */
+
+  /* Alternative  2*/
+  /* background: linear-gradient(315deg, transparent 75%, #00cec9 0)-10px 0,
+    linear-gradient(45deg, transparent 75%, #00cec9 0)-10px 0,
+    linear-gradient(135deg, #0984e3 50%, transparent 0) 0 0,
+    linear-gradient(45deg, #00b894 50%, #00688b 0) 0 0 #00688b;
+  background-size: 20px 20px; */
+
+  /* Alternate 3 */
+  background: radial-gradient(#00b894 3px, transparent 4px),
+    radial-gradient(#00b894 3px, transparent 4px),
+    linear-gradient(#00688b 4px, transparent 0),
+    linear-gradient(
+      45deg,
+      transparent 74px,
+      transparent 75px,
+      #0984e3 75px,
+      #0984e3 76px,
+      transparent 77px,
+      transparent 109px
+    ),
+    linear-gradient(
+      -45deg,
+      transparent 75px,
+      transparent 76px,
+      #0984e3 76px,
+      #0984e3 77px,
+      transparent 78px,
+      transparent 109px
+    ),
+    #00688b;
+  background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
+  background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+}
