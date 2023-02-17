@@ -67,10 +67,10 @@ class App extends React.Component {
       box: [],
       imageUrl: this.state.input,
     });
-    fetch('https://polar-peak-29988.herokuapp.com/imageurl', {
-      method: 'post',
+    fetch("https://smart-brain-api-two.vercel.app/imageurl", {
+      method: "post",
       headers: {
-        'Content-Type': 'application/json',
+        "Content-Type": "application/json",
       },
       body: JSON.stringify({
         input: this.state.input,
@@ -79,10 +79,10 @@ class App extends React.Component {
       .then((response) => response.json())
       .then((response) => {
         if (response) {
-          fetch('https://polar-peak-29988.herokuapp.com/image', {
-            method: 'put',
+          fetch("https://smart-brain-api-two.vercel.app/image", {
+            method: "put",
             headers: {
-              'Content-Type': 'application/json',
+              "Content-Type": "application/json",
             },
             body: JSON.stringify({
               id: this.state.user.id,
